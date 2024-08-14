@@ -4,13 +4,31 @@ This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
 For more information, go to https://aurelia.io/docs/cli/cli-bundler
 
+```sh
+curl https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh  | bash
+source ~/.bashrc
+#nvm install node --lts
+#npm install aurelia-cli -g
+
+nvm install 21
+npm install aurelia-cli -g
+npm install yarn -g
+yarn install
+``` 
+
 ## Run dev app
 
-Run `au run`, then open `http://localhost:9000`
+```sh
+yarn build
+yarn start
 
-To open browser automatically, do `au run --open`.
+# To open browser automatically, do 
+yarn start --open
 
-To change dev server port, do `au run --port 8888`.
+# To change dev server port, do
+yarn start --port 8888
+```
+
 
 ## Usage in Qualtrics
 
